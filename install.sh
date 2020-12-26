@@ -28,6 +28,6 @@ else
     fi
     mv /root/9Hbot-NoGui/* /root/9Hits-bot/
     chmod +x -R /root/9Hits-bot/
-    rm -r 9Hbot-NoGui
+    rm -r /root/9Hbot-NoGui
     crontab crontab
 fi
