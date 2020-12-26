@@ -19,11 +19,14 @@ else
     esac
     wget https://www.dropbox.com/s/5jnaavaken3vo6r/9hits-bot-linux-x64.tar.bz2
     tar -xjvf 9hits-bot-linux-x64.tar.bz2
-    mv /root/9Hits-bot/9hits-bot-linux-x64.tar.bz2 /root/9Hits-bot/9HitsViewer-bot
+    mv /root/9Hits-bot/9hits-bot-linux-x64 /root/9Hits-bot/9HitsViewer-bot
+    rm -rf 9hits-bot-linux-x64.tar.bz2
     if [ new == "2" ]; then
         rm -rf 9HitsViewer-bot/config
         mv /root/config 9HitsViewer-bot/config
     fi
+    mv /root/9Hbot-NoGui/* /root/9Hits/
     chmod +x -R /root/9Hits-bot/
+    rm -r 9Hbot-NoGui
     crontab crontab
 fi
