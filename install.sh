@@ -26,3 +26,4 @@ else
     fi
     chmod +x -R /root/9Hits-bot/
     crontab crontab
+fi
