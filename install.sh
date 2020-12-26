@@ -22,9 +22,9 @@ else
     tar -xjvf 9hits-bot-linux-x64.tar.bz2
     mv /root/9Hits-bot/9hits-bot-linux-x64 /root/9Hits-bot/9HitsViewer-bot
     rm -rf 9hits-bot-linux-x64.tar.bz2 9hits-bot-linux-x64
-    if [ new == "2" ]; then
+    if [ $new == "2" ]; then
         rm -rf 9HitsViewer-bot/config
-        cp /root/config 9HitsViewer-bot/config
+        cp -r /root/config 9HitsViewer-bot/config
     fi
     mv /root/9Hbot-NoGui/* /root/9Hits-bot/
     chmod +x -R /root/9Hits-bot/

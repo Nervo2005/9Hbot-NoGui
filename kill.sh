@@ -1,2 +1,2 @@
 #!/bin/bash
-kilall 9hbot 9hbrowser 9htl
+killall 9hbot 9hbrowser 9htl
