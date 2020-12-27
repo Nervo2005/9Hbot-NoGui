@@ -17,7 +17,7 @@ else
             new=2
             ;;
     esac
-    apt-get install -y xvfb wget libgtk-3-0 libgbm-dev libatspi2.0-0 libatomic1
+    apt-get install -y xvfb wget libgtk-3-0 libatspi2.0-0 libatomic1 libgdk-pixbuf2.0-dev libgtk-3-dev libxss-dev libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 libgbm-dev libnss3-dev
     wget https://www.dropbox.com/s/5jnaavaken3vo6r/9hits-bot-linux-x64.tar.bz2
     tar -xjvf 9hits-bot-linux-x64.tar.bz2
     mv /root/9Hits-bot/9hits-bot-linux-x64 /root/9Hits-bot/9HitsViewer-bot
